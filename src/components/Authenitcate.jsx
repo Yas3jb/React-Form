@@ -19,7 +19,7 @@ export default function Authenticate({ token }) {
       console.log(result);
       setSuccessMessage(result.message + " Welcome " + result.data.iat + "!");
     } catch (error) {
-      setError(error.messeage);
+      setError(error.message);
     }
   }
   return (
