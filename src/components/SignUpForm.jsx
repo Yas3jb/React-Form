@@ -58,9 +58,11 @@ export default function SignUpForm({ setToken }) {
             onChange={(e) => setUsername(e.target.value)}
           />
         </label>
-        <label>
+        <label htmlFor="password">
           Password:{" "}
           <input
+            type="password"
+            name="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
