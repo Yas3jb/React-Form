@@ -14,7 +14,7 @@ export default function SignUpForm({ setToken }) {
           "https://fsa-jwt-practice.herokuapp.com/signup",
           {
             method: "POST",
-            body: JSON.stringify({ username: username, password: password }),
+            body: JSON.stringify({ username, password }),
           }
         );
         const result = await response.json();
