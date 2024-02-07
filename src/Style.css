@@ -6,15 +6,15 @@ body {
   );
 }
 .form-container {
-  width: 100vh;
-  height: 60vh;
+  width: auto;
+  height: auto;
   padding: 20px;
   border: 5px double rgba(139, 125, 32, 0.3);
   box-shadow: 0 0 15px rgba(254, 221, 1, 0.987);
 }
 
 .auth {
-  width: 50vh;
+  width: auto;
   border: 5px double rgba(139, 125, 32, 0.3);
   box-shadow: 0 0 15px rgba(254, 221, 1, 0.987);
   padding: 20px;
@@ -31,7 +31,7 @@ h2 {
 form {
   display: flex;
   flex-direction: column;
-  margin: 100px;
+  margin: auto;
 }
 
 label {
